@@ -7,25 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE69370A2687C9BF0007767B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6937092687C9BF0007767B /* Extensions.swift */; };
+		BE6937122687CB4A0007767B /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6937112687CB4A0007767B /* Album.swift */; };
+		BE6FB8402685789E00E2B9F4 /* PasswordButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6FB83F2685789E00E2B9F4 /* PasswordButtonView.swift */; };
+		BE6FB84426858F0800E2B9F4 /* DotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6FB84326858F0800E2B9F4 /* DotView.swift */; };
+		BE6FB8472685954E00E2B9F4 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6FB8462685954E00E2B9F4 /* MainViewController.swift */; };
+		BE74B9BA268685BD00AE43AC /* AlbumCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE74B9B9268685BD00AE43AC /* AlbumCell.swift */; };
 		BEA18537267BFA3B00DF7253 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA18536267BFA3B00DF7253 /* AppDelegate.swift */; };
 		BEA18539267BFA3B00DF7253 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA18538267BFA3B00DF7253 /* SceneDelegate.swift */; };
-		BEA1853B267BFA3B00DF7253 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA1853A267BFA3B00DF7253 /* ViewController.swift */; };
 		BEA1853E267BFA3B00DF7253 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEA1853C267BFA3B00DF7253 /* Main.storyboard */; };
-		BEA18541267BFA3B00DF7253 /* SunVault.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BEA1853F267BFA3B00DF7253 /* SunVault.xcdatamodeld */; };
 		BEA18543267BFA3D00DF7253 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEA18542267BFA3D00DF7253 /* Assets.xcassets */; };
 		BEA18546267BFA3D00DF7253 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEA18544267BFA3D00DF7253 /* LaunchScreen.storyboard */; };
+		BEA18550267BFD3D00DF7253 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA1854F267BFD3D00DF7253 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BE6937092687C9BF0007767B /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		BE6937112687CB4A0007767B /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		BE6FB83F2685789E00E2B9F4 /* PasswordButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordButtonView.swift; sourceTree = "<group>"; };
+		BE6FB84326858F0800E2B9F4 /* DotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotView.swift; sourceTree = "<group>"; };
+		BE6FB8462685954E00E2B9F4 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		BE74B9B9268685BD00AE43AC /* AlbumCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumCell.swift; sourceTree = "<group>"; };
 		BEA18533267BFA3B00DF7253 /* SunVault.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SunVault.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEA18536267BFA3B00DF7253 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BEA18538267BFA3B00DF7253 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BEA1853A267BFA3B00DF7253 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BEA1853D267BFA3B00DF7253 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BEA18540267BFA3B00DF7253 /* SunVault.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SunVault.xcdatamodel; sourceTree = "<group>"; };
 		BEA18542267BFA3D00DF7253 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BEA18545267BFA3D00DF7253 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BEA18547267BFA3D00DF7253 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEA1854F267BFD3D00DF7253 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +49,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BE6937102687CB410007767B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BE6937112687CB4A0007767B /* Album.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BE6FB83E2685789E00E2B9F4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BE6FB83F2685789E00E2B9F4 /* PasswordButtonView.swift */,
+				BE6FB84326858F0800E2B9F4 /* DotView.swift */,
+				BE74B9B9268685BD00AE43AC /* AlbumCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		BEA1852A267BFA3B00DF7253 = {
 			isa = PBXGroup;
 			children = (
@@ -58,16 +86,27 @@
 		BEA18535267BFA3B00DF7253 /* SunVault */ = {
 			isa = PBXGroup;
 			children = (
+				BE6937102687CB410007767B /* Model */,
+				BEA1854E267BFD2800DF7253 /* ViewControllers */,
+				BE6FB83E2685789E00E2B9F4 /* Views */,
 				BEA18536267BFA3B00DF7253 /* AppDelegate.swift */,
 				BEA18538267BFA3B00DF7253 /* SceneDelegate.swift */,
-				BEA1853A267BFA3B00DF7253 /* ViewController.swift */,
 				BEA1853C267BFA3B00DF7253 /* Main.storyboard */,
 				BEA18542267BFA3D00DF7253 /* Assets.xcassets */,
 				BEA18544267BFA3D00DF7253 /* LaunchScreen.storyboard */,
 				BEA18547267BFA3D00DF7253 /* Info.plist */,
-				BEA1853F267BFA3B00DF7253 /* SunVault.xcdatamodeld */,
+				BE6937092687C9BF0007767B /* Extensions.swift */,
 			);
 			path = SunVault;
+			sourceTree = "<group>";
+		};
+		BEA1854E267BFD2800DF7253 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				BEA1854F267BFD3D00DF7253 /* LoginViewController.swift */,
+				BE6FB8462685954E00E2B9F4 /* MainViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,10 +179,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEA1853B267BFA3B00DF7253 /* ViewController.swift in Sources */,
+				BE6FB8472685954E00E2B9F4 /* MainViewController.swift in Sources */,
+				BE69370A2687C9BF0007767B /* Extensions.swift in Sources */,
 				BEA18537267BFA3B00DF7253 /* AppDelegate.swift in Sources */,
 				BEA18539267BFA3B00DF7253 /* SceneDelegate.swift in Sources */,
-				BEA18541267BFA3B00DF7253 /* SunVault.xcdatamodeld in Sources */,
+				BE74B9BA268685BD00AE43AC /* AlbumCell.swift in Sources */,
+				BE6FB84426858F0800E2B9F4 /* DotView.swift in Sources */,
+				BE6FB8402685789E00E2B9F4 /* PasswordButtonView.swift in Sources */,
+				BEA18550267BFD3D00DF7253 /* LoginViewController.swift in Sources */,
+				BE6937122687CB4A0007767B /* Album.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,19 +389,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		BEA1853F267BFA3B00DF7253 /* SunVault.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				BEA18540267BFA3B00DF7253 /* SunVault.xcdatamodel */,
-			);
-			currentVersion = BEA18540267BFA3B00DF7253 /* SunVault.xcdatamodel */;
-			path = SunVault.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = BEA1852B267BFA3B00DF7253 /* Project object */;
 }
